@@ -1,0 +1,37 @@
+# Python crap
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Build and cache directories
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Local IDE clutter
+.vscode/
+.idea/
+
+# OS Crap
+.DS_Store
+
+# Git
+.git/
+.gitignore
+
+# Test artefacts
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# Ignore data files if you're not using them
+*.sqlite
+*.db
+db.json
